@@ -11,12 +11,12 @@
 
 
 // WIFI Credentials
-const char* ssid = "OPPO A9 2020";
-const char* password = "bipash@1202";
+const char* ssid = " wifiName";
+const char* password = "wifiPassword";
 
 // Initialize Telegram BOT
-#define BOTtoken "2111371073:AAHhobsR9gpcYG0OBngBz51ZZYljqmlrxZA"  // replace this with your bot token
-#define CHAT_ID "1116287506"  //replace with your telegram user ID
+#define BOTtoken "2111371073:AAHhobsR9gpcYG0nxdndbixnvlelwnxc"  // replace this with your bot token
+#define CHAT_ID "1116287546"  //replace with your telegram user ID
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
@@ -30,8 +30,8 @@ int denom1k = 10;
 int denom500 = 10;
 
 // Credentials of ThingSpeak
-unsigned long myChannelNumber = 1591450;
-String myWriteAPIKey = "DOYOOQ26UEPGRXB9";
+unsigned long myChannelNumber = enterchanmel_num123;
+String myWriteAPIKey = " enter11digitAPIAKey";
 const char* serverName = "https://api.thingspeak.com/update";
 
 // Function that handles the options and their actions as given in the bot by user
